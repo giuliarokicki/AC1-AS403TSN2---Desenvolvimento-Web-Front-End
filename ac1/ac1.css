@@ -1,0 +1,154 @@
+/* Fonte elegante e legível */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Merriweather", serif;
+    background: #faebc7;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+
+header {
+    text-align: center;
+    color: #c24e34;
+    padding: 25px 0;
+    background: linear-gradient(135deg, #faebc7, #f5d9a5);
+    border-bottom: 2px solid #c24e34;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #222;
+    font-size: 2rem;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #c24e34;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+h3 {
+    color: #c24e34;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 18px;
+    text-align: justify;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Listas */
+ul, ol {
+    margin: 0 0 18px 24px;
+    padding: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    list-style-type: none;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    border: 1px solid #c24e34;
+    border-radius: 6px;
+    background: #fff8e1;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.curtidas {
+    display: inline-flex;
+    gap: 12px;
+    padding: 10px;
+    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+button {
+    height: 45px;
+    min-width: 80px;
+    background: #3a2321;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+
+button:hover {
+    background: #6b1718;
+    transform: scale(1.05);
+}
+
+input {
+    background: #fff8e1;
+    color: #222;
+    border: 1px solid #c24e34;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+
+input:focus {
+    border-color: #9f2a2a;
+    outline: none;
+    box-shadow: 0 0 8px rgba(159, 42, 42, 0.3);
+}
+
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #6b1718;
+    border-radius: 1px;
+    margin: 0px;
+}
+
+.botoes{
+    text-align: center;
+}
+
+.comentario {
+    width: 500px;
+    margin: 0 auto; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    border-radius: 5px;
+}
